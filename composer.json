@@ -1,0 +1,27 @@
+{
+  "name": "boxybird/pusher-for-wordpress",
+  "description": "Allows use of any websocket server that uses the Pusher API.",
+  "type": "wordpress-plugin",
+  "license": "MIT",
+  "keywords": [
+    "wordpress",
+    "laravel echo",
+    "pusher js",
+    "plugin"
+  ],
+  "authors": [
+    {
+      "name": "Andrew Rhyand",
+      "email": "hello@andrewrhyand.com"
+    }
+  ],
+  "require": {
+    "pusher/pusher-php-server": "^4.0",
+    "illuminate/support": "^7.17"
+  },
+  "autoload": {
+    "psr-4": {
+      "BoxyBird\\WebSockets\\": "src/"
+    }
+  }
+}
